@@ -17,5 +17,8 @@ The software also detects false positives (for example, a 1/95 score).
 Customizable filters allow you to modify displayed requests and change the interface language.
 
 Captured data can be exported in .pcap format and imported into Wireshark for deeper analysis.
-The capture is limited to 10,000 packets.
+The capture is limited to 10,000 packets. ``
+
+
+![Description de l'image](1.png)
 
