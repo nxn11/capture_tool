@@ -17,7 +17,42 @@ The software also detects false positives (for example, a 1/95 score).
 Customizable filters allow you to modify displayed requests and change the interface language.
 
 Captured data can be exported in .pcap format and imported into Wireshark for deeper analysis.
-The capture is limited to 10,000 packets. ``
+The capture is limited to 10,000 packets. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```bash
+git clone https://github.com/nxn11/capture_tool.git
+cd 
+chmod +x cap.py
+./cap.py
+```
+
+
+Moves into the cloned project directory.
+cd capture_tool
+
+
+Makes the file cap.py executable so it can be run as a script.
+chmod +x cap.py
+
+
+Runs your Python tool.
+This starts the capture process or displays available options, depending on how the script is written.
+./cap.py
 
 
 ![Description de l'image](1.png)
