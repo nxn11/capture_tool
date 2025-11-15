@@ -43,8 +43,8 @@ chmod +x cap.py
 #1 Create the virtual environment
 ```bash
 python3 -m venv venv
-source venv/bin/activate
-venv\Scripts\activate
+source venv/bin/activate  (macOS/Linux)
+venv\Scripts\activate     (Windows)
 ```
 
 <br>
