@@ -33,7 +33,7 @@ The capture is limited to 10,000 packets.
 
 ```bash
 git clone https://github.com/nxn11/capture_tool.git
-cd 
+cd captrure_tool
 chmod +x cap.py
 ./cap.py
 ```
