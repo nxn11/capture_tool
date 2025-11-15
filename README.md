@@ -31,12 +31,47 @@ The capture is limited to 10,000 packets.
 
 ## Installation process
 
+
 ```bash
 git clone https://github.com/nxn11/capture_tool.git
 cd captrure_tool
 chmod +x cap.py
 ./cap.py
 ```
+
+<br>
+
+#1 Create the virtual environment
+```bash
+python3 -m venv venv
+source venv/bin/activate
+venv\Scripts\activate
+```
+
+<br>
+
+#2 Install the required libraries
+```bash
+pip install PyQt6
+pip install plyer
+pip install scapy
+pip install requests
+```
+
+<br>
+
+#3 Installation completed
+```bash
+chmod +x cap.py
+python cap.py
+```
+
+
+
+
+<br><br><br>
+
+
 
 
 Moves into the cloned project directory.
@@ -49,7 +84,7 @@ chmod +x cap.py
 
 Runs your Python tool.
 This starts the capture process or displays available options, depending on how the script is written.
-./cap.py
+python cap.py
 
 <br><br>
 
