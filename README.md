@@ -34,9 +34,8 @@ The capture is limited to 10,000 packets.
 
 ```bash
 git clone https://github.com/nxn11/capture_tool.git
-cd captrure_tool
-chmod +x cap.py
-./cap.py
+cd capture_tool
+chmod +x cap.py  
 ```
 
 <br>
@@ -62,7 +61,6 @@ pip install requests
 
 #3 Installation completed
 ```bash
-chmod +x cap.py
 python cap.py
 ```
 
