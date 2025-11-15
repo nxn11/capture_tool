@@ -71,21 +71,6 @@ python cap.py
 
 
 
-
-Moves into the cloned project directory.
-cd capture_tool
-
-
-Makes the file cap.py executable so it can be run as a script.
-chmod +x cap.py
-
-
-Runs your Python tool.
-This starts the capture process or displays available options, depending on how the script is written.
-python cap.py
-
-<br><br>
-
 ## Requirements
 
 Before running the tool, you must install the following.
